@@ -3,7 +3,7 @@ Welcome to the SponsorMotion Data Ingestion Optimization project repository!
 
 Our goal is to optimize the data ingestion process of SponsorMotion, a data consulting company specializing in a comprehensive database of healthcare-related events in the United States. This project focuses on improving scalability and effective cost optimization, as well as establishing automated data quality control processes to identify problematic or duplicate records. This repository contains the necessary resources, source code, and documentation for the project. Our goal is to help streamline these processes and drive advancements in event sponsorship within the healthcare industry in the United States. 
 
-## How to use the Final Notebook SponsorMotion
+# How to use the Final Notebook SponsorMotion
 
 Once you have imported the numpy and pandas libraries in your notebook, the second cell is responsible for importing the provided events dump dataset from the company. To use a different dataset, simply update the dataset's name in the code by specifying the correct location of the new dataset.
 In the notebook's 15th cell, you'll find a data frame named 'filtered_data' that is configured to filter data specifically for the states of Florida (FL) and Nevada (NV). This is designed to showcase the algorithm's functionality within these two states. Should you wish to work with different states, you can easily modify this filter by replacing the state names accordingly.

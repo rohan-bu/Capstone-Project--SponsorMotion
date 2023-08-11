@@ -7,7 +7,7 @@ Our goal is to optimize the data ingestion process of SponsorMotion, a data cons
 
 -  Once you have imported the numpy and pandas libraries in your notebook, the second cell is responsible for importing the provided events dump dataset from the company. To use a different dataset, simply update the dataset's name in the code by specifying the correct location of the new dataset.
 
-- In the notebook's 15th cell, you'll find a data frame named 'filtered_data' that is configured to filter data specifically for the states of Florida (FL) and Nevada (NV). This is designed to showcase the algorithm's functionality within these two states. Should you wish to work with different states, you can easily modify this filter by replacing the state names accordingly.
+In the notebook's 15th cell, you'll find a data frame named 'filtered_data' that is configured to filter data specifically for the states of Florida (FL) and Nevada (NV). This is designed to showcase the algorithm's functionality within these two states. Should you wish to work with different states, you can easily modify this filter by replacing the state names accordingly.
 
 -  In case you prefer to execute the code for all states without applying any filters, you can achieve this by substituting the code in cell 15 with the following line:
                                filtered_data = ordered_data.copy()
